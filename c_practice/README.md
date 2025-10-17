@@ -1,0 +1,1 @@
+Solve C exercises daily
