@@ -22,8 +22,8 @@ void reverseString2(char *s)
 
 int main()
 {
-    char s[100];
-    scanf("%s", s);
+    char s[10];
+    fgets(s, sizeof(s) + 1, stdin);
     reverseString2(s);
 
     for(int i = 0; *(arr + i) != '\0'; i++)
